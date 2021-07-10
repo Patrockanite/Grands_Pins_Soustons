@@ -1,0 +1,143 @@
+body{
+    font-size: 16px;
+    color: tomato;
+    background-color:wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/**************** Header *****************/
+#header-nav{
+    background-color: skyblue;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url('../images/echasses_150.jpg') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+.navbar-brand{
+    padding-top: 25px;
+}
+.navbar-brand h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(8, 34, 82);
+    line-height: .75;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(51, 122, 183);
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+    text-decoration: none;
+}
+.navbar-brand p{
+    color: rgb(51, 122, 183);
+    font-weight: bold;
+    text-transform:capitalize;
+    font-size: .8em;
+    margin-top: 15px;
+}
+#nav-list{
+    margin-top: 10px;
+}
+#nav-list a{
+    color: rgb(51, 122, 183);
+    text-align: center;
+}
+#nav-list a:hover{
+    background-color:azure;
+}
+#nav-list a span{
+    font-size: 1.8em;
+}
+#phone{
+    margin-top: 5px;
+}
+#phone a{
+    text-align: right;
+    padding-bottom: 0;
+
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid rgb(51, 122, 183);
+}
+.navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -30px;
+}
+/*********************** Media Queries *******************/
+/********************* Large Devices**********************/
+@media (min-width:1200px){
+    .container .jumbotron{
+        background: url("../images/jumbotron_1200.jpg") no-repeat;
+        height: 675px;
+        box-shadow: 0 0 50px rgb(170, 142, 91);
+        border: 2PX solid rgb(223, 198, 152);
+    }
+}
+/********************* Medium devices **********************/
+@media (min-width:992px) and (max-width:1199px){
+    /*Header*/
+    #logo-img{
+        background: url('../images/echasses_100.jpg') no-repeat;
+        width: 100px;
+        height: 100px;
+        margin: 5px 5px 5px 0;
+    }
+    /* fin header */
+    .container .jumbotron{
+        background: url("../images/jumbotron_992.jpg") no-repeat;
+        height: 558px;
+        box-shadow: 0 0 50px rgb(170, 142, 91);
+        border: 2PX solid rgb(223, 198, 152);
+    }
+}
+/********************** Small devices *************************/
+@media (min-width:768px) and (max-width:991px){
+    .container .jumbotron{
+        background: url("../images/jumbotron_768.jpg") no-repeat;
+        height: 432px;
+        box-shadow: 0 0 50px rgb(170, 142, 91);
+        border: 2PX solid rgb(223, 198, 152);
+    }
+}
+/******************* Extra Small Devices ******************/
+@media (max-width:767px){
+    /* header */
+    .navbar-brand{
+        padding-top: 10px;
+        height: 80px;
+    }
+    .navbar-brand h1{
+        padding-top: 10px;
+        font-size: 5vw; /* 5vw = 5% of viewport width */
+    }
+    #collapsable-nav a{
+        /* glyphicon */
+        font-size: 1.2em;
+        
+    }
+        /** fin header **/
+    #collapsable-nav a span{
+        font-size: 1em;
+        margin-right: 5px;
+    }
+    #call-btn > a {
+        font-size: 1.2em;
+        display: block;
+        margin: 0 20px;
+        padding: 10px;
+        border: 2px solid rgb(51, 122, 183);
+        background-color: skyblue;
+        color: rgb(51, 122, 183);
+      }
+      /** jumbotron **/
+    .container .jumbotron{ /*attention aux priorités de classes ou ID*/
+        margin-top: 30px;
+        padding: 0;
+        box-shadow: 0 0 50px rgb(170, 142, 91);
+        border: 2px solid rgb(223, 198, 152);
+    }
+}
