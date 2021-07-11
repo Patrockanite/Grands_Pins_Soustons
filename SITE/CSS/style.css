@@ -73,6 +73,12 @@ body{
 #main-content h1{
     text-shadow: 1px 1px 1px rgb(8, 34, 82);
 }
+#main-content #map{
+    width: 100%;
+}
+#main-content iframe{
+    margin-top: 15px;
+}
 
 /*********************** Media Queries *******************/
 /********************* Large Devices**********************/
