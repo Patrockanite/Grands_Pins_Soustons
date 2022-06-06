@@ -1,0 +1,125 @@
+Jun  6 18:25:48 10.71.56.0 u105107054 Connection from 10.71.56.0 port 53328 on 82.165.88.72 port 22
+Jun  6 18:25:50 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 53328 ssh2
+Jun  6 18:25:50 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 53328 id 0
+Jun  6 18:25:50 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:29:14 10.71.56.0 u105107054 Connection from 10.71.56.0 port 54212 on 82.165.88.72 port 22
+Jun  6 18:29:14 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 54212 ssh2
+Jun  6 18:29:14 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 54212 id 0
+Jun  6 18:29:14 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:29:16 10.71.56.0 u105107054 open "/index.html" flags READ mode 0666
+Jun  6 18:29:17 10.71.56.0 u105107054 close "/index.html" bytes read 4215 written 0
+Jun  6 18:29:17 10.71.56.0 u105107054 [10.71.56.0|get|1|4215|0|0|0|2f696e6465782e68746d6c|]
+Jun  6 18:29:26 10.71.56.0 u105107054 session closed for local user u105107054 from [10.71.56.0]
+Jun  6 18:29:26 10.71.56.0 u105107054 Connection closed by 10.71.56.0 port 53328
+Jun  6 18:29:29 10.71.56.0 u105107054 session closed for local user u105107054 from [10.71.56.0]
+Jun  6 18:29:29 10.71.56.0 u105107054 Connection closed by 10.71.56.0 port 54212
+Jun  6 18:31:32 10.71.56.0 u105107054 Connection from 10.71.56.0 port 55078 on 82.165.88.72 port 22
+Jun  6 18:31:33 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 55078 ssh2
+Jun  6 18:31:33 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 55078 id 0
+Jun  6 18:31:34 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:32:06 10.71.56.0 u105107054 Connection from 10.71.56.0 port 55382 on 82.165.88.72 port 22
+Jun  6 18:32:06 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 55382 ssh2
+Jun  6 18:32:06 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 55382 id 0
+Jun  6 18:32:06 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:32:06 10.71.56.0 u105107054 Connection from 10.71.56.0 port 55384 on 82.165.88.72 port 22
+Jun  6 18:32:06 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 55384 ssh2
+Jun  6 18:32:07 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 55384 id 0
+Jun  6 18:32:07 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:32:08 10.71.56.0 u105107054 sent status No such file
+Jun  6 18:32:11 10.71.56.0 u105107054 open "/index.html" flags READ mode 0666
+Jun  6 18:32:11 10.71.56.0 u105107054 close "/index.html" bytes read 4215 written 0
+Jun  6 18:32:11 10.71.56.0 u105107054 [10.71.56.0|get|0|4215|0|0|0|2f696e6465782e68746d6c|]
+Jun  6 18:32:11 10.71.56.0 u105107054 session closed for local user u105107054 from [10.71.56.0]
+Jun  6 18:32:11 10.71.56.0 u105107054 Connection closed by 10.71.56.0 port 55382
+Jun  6 18:32:12 10.71.56.0 u105107054 Connection from 10.71.56.0 port 55430 on 82.165.88.72 port 22
+Jun  6 18:32:12 10.71.56.0 u105107054 Accepted password for u105107054 from 10.71.56.0 port 55430 ssh2
+Jun  6 18:32:12 10.71.56.0 u105107054 Starting session: subsystem 'sftp' for u105107054 from 10.71.56.0 port 55430 id 0
+Jun  6 18:32:12 10.71.56.0 u105107054 session opened for local user u105107054 from [10.71.56.0]
+Jun  6 18:32:12 10.71.56.0 u105107054 open "/CSS/style.css" flags READ mode 0666
+Jun  6 18:32:12 10.71.56.0 u105107054 close "/CSS/style.css" bytes read 4301 written 0
+Jun  6 18:32:12 10.71.56.0 u105107054 [10.71.56.0|get|0|4301|0|0|0|2f4353532f7374796c652e637373|]
+Jun  6 18:32:13 10.71.56.0 u105107054 open "/CSS/bootstrap.css" flags READ mode 0666
+Jun  6 18:32:13 10.71.56.0 u105107054 close "/CSS/bootstrap.css" bytes read 152842 written 0
+Jun  6 18:32:13 10.71.56.0 u105107054 [10.71.56.0|get|0|152842|0|0|0|2f4353532f626f6f7473747261702e637373|]
+Jun  6 18:32:14 10.71.56.0 u105107054 open "/CSS/bootstrap.min.css" flags READ mode 0666
+Jun  6 18:32:14 10.71.56.0 u105107054 close "/CSS/bootstrap.min.css" bytes read 121265 written 0
+Jun  6 18:32:14 10.71.56.0 u105107054 [10.71.56.0|get|0|121265|0|0|0|2f4353532f626f6f7473747261702e6d696e2e637373|]
+Jun  6 18:32:15 10.71.56.0 u105107054 open "/fonts/glyphicons-halflings-regular.woff2" flags READ mode 0666
+Jun  6 18:32:15 10.71.56.0 u105107054 close "/fonts/glyphicons-halflings-regular.woff2" bytes read 18028 written 0
+Jun  6 18:32:15 10.71.56.0 u105107054 [10.71.56.0|get|0|18028|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f666632|]
+Jun  6 18:32:16 10.71.56.0 u105107054 open "/fonts/glyphicons-halflings-regular.woff" flags READ mode 0666
+Jun  6 18:32:16 10.71.56.0 u105107054 close "/fonts/glyphicons-halflings-regular.woff" bytes read 23424 written 0
+Jun  6 18:32:16 10.71.56.0 u105107054 [10.71.56.0|get|0|23424|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e776f6666|]
+Jun  6 18:32:17 10.71.56.0 u105107054 open "/fonts/glyphicons-halflings-regular.ttf" flags READ mode 0666
+Jun  6 18:32:17 10.71.56.0 u105107054 close "/fonts/glyphicons-halflings-regular.ttf" bytes read 45404 written 0
+Jun  6 18:32:17 10.71.56.0 u105107054 [10.71.56.0|get|0|45404|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e747466|]
+Jun  6 18:32:18 10.71.56.0 u105107054 open "/fonts/glyphicons-halflings-regular.eot" flags READ mode 0666
+Jun  6 18:32:18 10.71.56.0 u105107054 close "/fonts/glyphicons-halflings-regular.eot" bytes read 20127 written 0
+Jun  6 18:32:18 10.71.56.0 u105107054 [10.71.56.0|get|0|20127|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e656f74|]
+Jun  6 18:32:18 10.71.56.0 u105107054 open "/images/Qr_code.JPG" flags READ mode 0666
+Jun  6 18:32:18 10.71.56.0 u105107054 close "/images/Qr_code.JPG" bytes read 40399 written 0
+Jun  6 18:32:18 10.71.56.0 u105107054 [10.71.56.0|get|0|40399|0|0|0|2f696d616765732f51725f636f64652e4a5047|]
+Jun  6 18:32:18 10.71.56.0 u105107054 open "/images/Hourglass.gif" flags READ mode 0666
+Jun  6 18:32:18 10.71.56.0 u105107054 open "/fonts/glyphicons-halflings-regular.svg" flags READ mode 0666
+Jun  6 18:32:18 10.71.56.0 u105107054 close "/images/Hourglass.gif" bytes read 29031 written 0
+Jun  6 18:32:18 10.71.56.0 u105107054 [10.71.56.0|get|0|29031|0|0|0|2f696d616765732f486f7572676c6173732e676966|]
+Jun  6 18:32:19 10.71.56.0 u105107054 close "/fonts/glyphicons-halflings-regular.svg" bytes read 109025 written 0
+Jun  6 18:32:19 10.71.56.0 u105107054 [10.71.56.0|get|1|109025|0|0|0|2f666f6e74732f676c79706869636f6e732d68616c666c696e67732d726567756c61722e737667|]
+Jun  6 18:32:20 10.71.56.0 u105107054 open "/images/piscine.jpg" flags READ mode 0666
+Jun  6 18:32:20 10.71.56.0 u105107054 close "/images/piscine.jpg" bytes read 285636 written 0
+Jun  6 18:32:20 10.71.56.0 u105107054 [10.71.56.0|get|0|285636|0|0|0|2f696d616765732f70697363696e652e6a7067|]
+Jun  6 18:32:21 10.71.56.0 u105107054 open "/images/Nerd_2.jpg" flags READ mode 0666
+Jun  6 18:32:21 10.71.56.0 u105107054 close "/images/Nerd_2.jpg" bytes read 73327 written 0
+Jun  6 18:32:21 10.71.56.0 u105107054 [10.71.56.0|get|0|73327|0|0|0|2f696d616765732f4e6572645f322e6a7067|]
+Jun  6 18:32:22 10.71.56.0 u105107054 open "/images/jumbotron_992.jpg" flags READ mode 0666
+Jun  6 18:32:22 10.71.56.0 u105107054 close "/images/jumbotron_992.jpg" bytes read 215879 written 0
+Jun  6 18:32:22 10.71.56.0 u105107054 [10.71.56.0|get|0|215879|0|0|0|2f696d616765732f6a756d626f74726f6e5f3939322e6a7067|]
+Jun  6 18:32:23 10.71.56.0 u105107054 open "/images/jumbotron_768.jpg" flags READ mode 0666
+Jun  6 18:32:23 10.71.56.0 u105107054 close "/images/jumbotron_768.jpg" bytes read 141359 written 0
+Jun  6 18:32:23 10.71.56.0 u105107054 [10.71.56.0|get|0|141359|0|0|0|2f696d616765732f6a756d626f74726f6e5f3736382e6a7067|]
+Jun  6 18:32:24 10.71.56.0 u105107054 open "/images/jumbotron_1200.jpg" flags READ mode 0666
+Jun  6 18:32:24 10.71.56.0 u105107054 close "/images/jumbotron_1200.jpg" bytes read 296910 written 0
+Jun  6 18:32:24 10.71.56.0 u105107054 [10.71.56.0|get|0|296910|0|0|0|2f696d616765732f6a756d626f74726f6e5f313230302e6a7067|]
+Jun  6 18:32:29 10.71.56.0 u105107054 open "/images/echasses.jpg" flags READ mode 0666
+Jun  6 18:32:29 10.71.56.0 u105107054 open "/images/echasses_150.jpg" flags READ mode 0666
+Jun  6 18:32:29 10.71.56.0 u105107054 close "/images/echasses.jpg" bytes read 11820 written 0
+Jun  6 18:32:29 10.71.56.0 u105107054 [10.71.56.0|get|0|11820|0|0|0|2f696d616765732f65636861737365732e6a7067|]
+Jun  6 18:32:29 10.71.56.0 u105107054 close "/images/echasses_150.jpg" bytes read 14087 written 0
+Jun  6 18:32:29 10.71.56.0 u105107054 [10.71.56.0|get|0|14087|0|0|0|2f696d616765732f65636861737365735f3135302e6a7067|]
+Jun  6 18:32:29 10.71.56.0 u105107054 open "/images/echasses_100.jpg" flags READ mode 0666
+Jun  6 18:32:29 10.71.56.0 u105107054 close "/images/echasses_100.jpg" bytes read 8181 written 0
+Jun  6 18:32:29 10.71.56.0 u105107054 [10.71.56.0|get|0|8181|0|0|0|2f696d616765732f65636861737365735f3130302e6a7067|]
+Jun  6 18:32:29 10.71.56.0 u105107054 open "/JS/ajax-utils.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/ajax-utils.js" bytes read 1640 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|1|1640|0|0|0|2f4a532f616a61782d7574696c732e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/JS/script.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/JS/npm.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/script.js" bytes read 2665 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|2665|0|0|0|2f4a532f7363726970742e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/npm.js" bytes read 496 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|496|0|0|0|2f4a532f6e706d2e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/JS/jquery-2.1.4.min.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/JS/bootstrap.min.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/jquery-2.1.4.min.js" bytes read 84349 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|84349|0|0|0|2f4a532f6a71756572792d322e312e342e6d696e2e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/bootstrap.min.js" bytes read 36874 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|36874|0|0|0|2f4a532f626f6f7473747261702e6d696e2e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/JS/bootstrap.js" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/JS/bootstrap.js" bytes read 71317 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|71317|0|0|0|2f4a532f626f6f7473747261702e6a73|]
+Jun  6 18:32:30 10.71.56.0 u105107054 open "/logs/access.log.20.gz" flags READ mode 0666
+Jun  6 18:32:30 10.71.56.0 u105107054 close "/logs/access.log.20.gz" bytes read 5546 written 0
+Jun  6 18:32:30 10.71.56.0 u105107054 [10.71.56.0|get|0|5546|0|0|0|2f6c6f67732f6163636573732e6c6f672e32302e677a|]
+Jun  6 18:32:31 10.71.56.0 u105107054 open "/logs/access.log.18.gz" flags READ mode 0666
+Jun  6 18:32:31 10.71.56.0 u105107054 open "/logs/access.log.16.gz" flags READ mode 0666
+Jun  6 18:32:31 10.71.56.0 u105107054 close "/logs/access.log.18.gz" bytes read 5662 written 0
+Jun  6 18:32:31 10.71.56.0 u105107054 [10.71.56.0|get|0|5662|0|0|0|2f6c6f67732f6163636573732e6c6f672e31382e677a|]
+Jun  6 18:32:31 10.71.56.0 u105107054 open "/logs/access.log.21.gz" flags READ mode 0666
+Jun  6 18:32:31 10.71.56.0 u105107054 close "/logs/access.log.16.gz" bytes read 7562 written 0
+Jun  6 18:32:31 10.71.56.0 u105107054 [10.71.56.0|get|0|7562|0|0|0|2f6c6f67732f6163636573732e6c6f672e31362e677a|]
+Jun  6 18:32:31 10.71.56.0 u105107054 close "/logs/access.log.21.gz" bytes read 5844 written 0
+Jun  6 18:32:31 10.71.56.0 u105107054 [10.71.56.0|get|0|5844|0|0|0|2f6c6f67732f6163636573732e6c6f672e32312e677a|]
+Jun  6 18:32:31 10.71.56.0 u105107054 open "/logs/access.log.19.gz" flags READ mode 0666
+Jun  6 18:32:31 10.71.56.0 u105107054 open "/logs/sftp.log" flags READ mode 0666
+Jun  6 18:32:31 10.71.56.0 u105107054 close "/logs/access.log.19.gz" bytes read 5374 written 0
+Jun  6 18:32:31 10.71.56.0 u105107054 [10.71.56.0|get|0|5374|0|0|0|2f6c6f67732f6163636573732e6c6f672e31392e677a|]

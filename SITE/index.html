@@ -1,8 +1,10 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang='fr'>
     <head>
         <meta charset='UTF-8'>
         <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta name="keywords" content="Landes, Soustons Plage, Maison de vacances, piscine, Vieux Boucau">
+        <meta name="description" content ="Tutos pour l'utilisation de la piscine et des appareils présents dans la maison de vacances Grands Pins à Soustons Plage">
         <link href = 'CSS/bootstrap.min.css' rel = 'stylesheet'>
         <link href="CSS/style.css" rel="stylesheet">
         <title>32 Grands Pins Soustons Plage</title>
@@ -15,14 +17,12 @@
                         <a href="index.html" class="pull-left visible-md visible-lg">
                             <div id="logo-img" alt="Logo image"></div>
                         </a>
-
-
                         <div class="navbar-brand">
                             <a href="index.html" class=""><h1>32 Grands Pins - Soustons Plage</h1></a>
                             <p>Bonnes vacances dans les Landes</p>
                         </div>
                 
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -46,7 +46,7 @@
                         </li>
                         <li id="phone" class="hidden-xs">
                         <a href="tel:+33558482923">
-                            <span class="glyphicon glyphicon-earphone"></span><span style="font-size:1.2em;"> 0558482933</span></a>
+                            <span class="glyphicon glyphicon-earphone"></span><span style="font-size:1.2em;"> 0558482923</span></a>
                         </li>
                     </ul><!-- #nav-list -->
                     </div><!-- .collapse .navbar-collapse -->
@@ -55,65 +55,25 @@
         
           </header>
           <div id="call-btn" class="visible-xs">
-              <a class="btn" href="tel:+33558482933">
+              <a class="btn" href="tel:+33558482923">
                   <span class="glyphicon glyphicon-earphone"></span>
-                  (33) 05.58.48.29.33
+                  (33) 05.58.48.29.23
               </a>
           </div>
-          <div id="main-content" class="container">
-            <!--**************************** Contenu Principal Titre ******************************-->
-            <h1>Mais comment fonctionnent les appareils ici ?</h1>  
-            <div class="jumbotron">
-                <img src="images/jumbotron_768.jpg" alt="derrière la maison" class="img-responsive visible-xs">
-            </div>
-            <!--*************** Plan & vidéos ***************************-->
-            <div id="home-tiles" class="row">
-                <!--vidéo 1-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z79Wm564r_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
-                    </div>
+
+          <div id="main-content" class="container"></div><!--fin main (container)-->
+          <!--div class="row">
+              <footer class="bg-light text-center">
+                <div class="text-center" >
+                © 2021<span class="footer_text"> Grands Pins Vieux Boucau - Soustons Plage</span>
                 </div>
-                <!--vidéo 2-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nqruZumyc1Y" title="Plaque induction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-                 <!--vidéo 3-->
-                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q9siQ_B3XuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-                 <!--vidéo 1-->
-                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Z79Wm564r_E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>></iframe>
-                    </div>
-                </div>
-                <!--vidéo 2-->
-                <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nqruZumyc1Y" title="Plaque induction" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-                 <!--vidéo 3-->
-                 <div class="col-md-4 col-sm-6 col-xs-12">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/q9siQ_B3XuQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                </div>
-                 <!--plan-->
-                 <div class="col-md-12 col-sm-12 col-xs-12">
-                    <iframe id = "map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2880.8581761033524!2d-1.400668484206823!3d43.77580275251153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd51587bbc5250b1%3A0x9069decd62c02387!2s32%20Rue%20des%20Grands%20Pins%2C%2040140%20Soustons!5e0!3m2!1sfr!2sfr!4v1625991257641!5m2!1sfr!2sfr" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe> 
-                </div>
-            </div><!--fin row-->
-            
-          </div><!--fin main-content (container)-->
+            </footer>
+          </div-->
+
     <!-- jQuery (Bootstrap JS plugins depend on it) -->
     <script src="JS/jquery-2.1.4.min.js"></script> 
     <script src="JS/bootstrap.min.js"></script> 
+    <script src="JS/ajax-utils.js"></script>
     <script src='JS/script.js'></script>
          
     </body>

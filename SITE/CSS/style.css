@@ -6,7 +6,7 @@ body{
 }
 
 /**************** Header *****************/
-#header-nav{
+#header-nav, footer{
     background-color: skyblue;
     border-radius: 0;
     border: 0;
@@ -70,6 +70,9 @@ body{
 /********************* Fin header *************************/
 
 /*************** main-content **********************/
+.alert{
+    margin: 0;
+}
 #main-content h1{
     text-shadow: 1px 1px 1px rgb(8, 34, 82);
 }
@@ -79,6 +82,12 @@ body{
 #main-content iframe{
     margin-top: 15px;
 }
+footer{
+    font-size: 12px;
+    height: 40px;
+    color: rgb(8, 34, 82);
+    padding-top: 10px;
+    }
 
 /*********************** Media Queries *******************/
 /********************* Large Devices**********************/
