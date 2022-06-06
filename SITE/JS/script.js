@@ -26,7 +26,11 @@ $(function () {
 
     var titre = "/Snippets/titre_snippet.html";
     var videos = "/Snippets/videos_snippet.html";
+<<<<<<< HEAD
     //var plan = "/Snippets/map_snippet.html";
+=======
+    var plan = "/Snippets/map_snippet.html";
+>>>>>>> 48ccd9408eabafe6ea867795e3d71940194959c8
 
     //fonction pour insérer le html sur la sélection
     var insertHtml = function(selecteurCSS,code_html){
@@ -43,24 +47,40 @@ $(function () {
 
     /**************** ajoute un div à la suite de main-content *************/
     /**************** Comme c'est du text, Json sur false *****************/
+<<<<<<< HEAD
     /*var ajouterUnSnippet =  function(pageHtml){
+=======
+    var ajouterUnSnippet =  function(pageHtml){
+>>>>>>> 48ccd9408eabafe6ea867795e3d71940194959c8
       $ajaxUtils.sendGetRequest(pageHtml,function(responseText){
             var contenu = document.getElementById("main-content");
             var ajout = document.createElement('div');
             ajout.innerHTML = responseText;
             contenu.appendChild(ajout);
             },false);
+<<<<<<< HEAD
         };*/
+=======
+        };
+>>>>>>> 48ccd9408eabafe6ea867795e3d71940194959c8
 
     // une fois la page chargée
     document.addEventListener('DOMContentLoaded',function(event){
         
       showLoading("#main-content");
+<<<<<<< HEAD
         /***********Titre vidéos et plan ***************/
         $ajaxUtils.sendGetRequest(videos,function(responseText){document.querySelector("#main-content").innerHTML = responseText},false);
         
         /*************** vidéos + plan ************/
         //ajouterUnSnippet(videos);
+=======
+        /***********Titre***************/
+        $ajaxUtils.sendGetRequest(titre,function(responseText){document.querySelector("#main-content").innerHTML = responseText},false);
+        
+        /*************** vidéos + plan ************/
+        ajouterUnSnippet(videos);
+>>>>>>> 48ccd9408eabafe6ea867795e3d71940194959c8
 
 
                    

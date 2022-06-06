@@ -30,7 +30,11 @@ ajaxUtils.sendGetRequest =
                        responseHandler,
                        isJsonResponse); 
       };
+<<<<<<< HEAD
     request.open("GET", requestUrl, true);
+=======
+    request.open("GET", requestUrl, true); //true pour une requete asynchrone ou false pour synchrone
+>>>>>>> 48ccd9408eabafe6ea867795e3d71940194959c8
     request.send(null); // for POST only
   };
 
