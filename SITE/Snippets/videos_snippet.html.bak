@@ -20,12 +20,6 @@
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/7DhaG2R1djc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
-    <!--vidéo éclairer la bodéga-->
-    <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/0Z5RaOQG3pU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
      <!--vidéo store cuisine-->
      <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="embed-responsive embed-responsive-4by3">
@@ -35,7 +29,7 @@
      <!--vidéo plaque induction-->
      <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/C-iB-U9abjo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/cQGP5EMDYR8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <!--vidéo composte-->
@@ -60,12 +54,6 @@
     <div class="col-md-4 col-sm-6 col-xs-12">
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/bt_hZqcgQ5E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-    </div>
-    <!--vidéo niveau piscine-->
-    <div class="col-md-4 col-sm-6 col-xs-12">
-        <div class="embed-responsive embed-responsive-4by3">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eDbjuycMA4A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </div>
     <!--vidéo Déchets -->
